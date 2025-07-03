@@ -10,4 +10,7 @@ console.log("🌱 Database seeded.");
 
 async function seed() {
   // TODO
+  await createTask('title1', false, user.id);
+  await createTask('title2', false, user.id);
+  await createTask('title3', false, user.id);
 }
